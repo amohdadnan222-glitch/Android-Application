@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618008968569",
+    "project_id": "smartutilityhub-ccdf9",
+    "storage_bucket": "smartutilityhub-ccdf9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618008968569:android:73b969a2b15d2ab88283a8",
+        "android_client_info": {
+          "package_name": "com.coderbhai.firstone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMOlLBJdKDVxTo_giJBeg3IsAvrf3dF-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
