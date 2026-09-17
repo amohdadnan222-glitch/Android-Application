@@ -168,7 +168,9 @@ The application follows a modular Activity-based structure.
           ▼             ▼       ▼        ▼             ▼
       Calculator       Quiz    WiFi   Realtime DB   SQLite
 
-      # 📸 Screenshots
+
+
+# 📸 Screenshots
 
 ## 🏠 Integrated Dashboard
 
