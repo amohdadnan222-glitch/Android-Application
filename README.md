@@ -142,33 +142,6 @@ The dashboard uses a shared navigation approach so additional modules can be int
 
 ---
 
-## 🏗️ Application Architecture
-
-The application follows a modular Activity-based structure.
-
-```text
-                     ┌──────────────────────┐
-                     │   Login / Register   │
-                     └──────────┬───────────┘
-                                │
-                 ┌──────────────┴──────────────┐
-                 │                             │
-                 ▼                             ▼
-        ┌─────────────────┐          ┌─────────────────┐
-        │ Firebase Auth   │          │ SQLite Auth     │
-        └────────┬────────┘          └────────┬────────┘
-                 │                             │
-                 └──────────────┬──────────────┘
-                                ▼
-                     ┌──────────────────────┐
-                     │      Dashboard       │
-                     └──────────┬───────────┘
-                                │
-          ┌─────────────┬───────┼────────┬─────────────┐
-          ▼             ▼       ▼        ▼             ▼
-      Calculator       Quiz    WiFi   Realtime DB   SQLite
-
-
 
 # 📸 Screenshots
 
@@ -225,3 +198,33 @@ The quiz module displays multiple-choice questions and calculates the user's sco
 ![Firebase Realtime Database](Real-time-database.jpg)
 
 The Realtime Database module allows user information such as name and phone number to be stored and synchronized using Firebase.
+
+---
+
+## 🏗️ Application Architecture
+
+The application follows a modular Activity-based structure.
+
+```text
+                     ┌──────────────────────┐
+                     │   Login / Register   │
+                     └──────────┬───────────┘
+                                │
+                 ┌──────────────┴──────────────┐
+                 │                             │
+                 ▼                             ▼
+        ┌─────────────────┐          ┌─────────────────┐
+        │ Firebase Auth   │          │ SQLite Auth     │
+        └────────┬────────┘          └────────┬────────┘
+                 │                             │
+                 └──────────────┬──────────────┘
+                                ▼
+                     ┌──────────────────────┐
+                     │      Dashboard       │
+                     └──────────┬───────────┘
+                                │
+          ┌─────────────┬───────┼────────┬─────────────┐
+          ▼             ▼       ▼        ▼             ▼
+      Calculator       Quiz    WiFi   Realtime DB   SQLite
+
+
