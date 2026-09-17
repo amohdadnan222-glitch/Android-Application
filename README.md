@@ -37,7 +37,7 @@ Users can:
 - Receive validation and authentication error messages
 - Maintain authentication state between app launches
 
-Firebase handles password storage and authentication on the server side rather than storing Firebase authentication passwords directly in the application.
+Firebase handles authentication and password storage on the server side rather than storing Firebase authentication passwords directly in the application.
 
 ---
 
