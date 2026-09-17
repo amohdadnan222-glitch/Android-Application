@@ -167,3 +167,59 @@ The application follows a modular Activity-based structure.
           ┌─────────────┬───────┼────────┬─────────────┐
           ▼             ▼       ▼        ▼             ▼
       Calculator       Quiz    WiFi   Realtime DB   SQLite
+
+      # 📸 Screenshots
+
+## 🏠 Integrated Dashboard
+
+![Integrated Dashboard](Final-integrated-application.jpg)
+
+The dashboard provides access to the different modules of the application from a single interface.
+
+---
+
+## 🔐 Firebase Login
+
+![Firebase Login](firebase_login.jpg)
+
+Firebase Authentication provides cloud-based registration and login using email and password.
+
+---
+
+## 🗄️ SQLite Login
+
+![SQLite Login](SQLite_login.jpg)
+
+The SQLite module provides local registration and authentication using an SQLite database.
+
+---
+
+## 🧮 Calculator
+
+![Calculator](Calculator.jpg)
+
+The calculator supports basic arithmetic operations including addition, subtraction, multiplication, and division.
+
+---
+
+## 📶 WiFi Module
+
+![WiFi Module](Wi-fi.jpg)
+
+The WiFi module provides a quick way to open the device's WiFi settings.
+
+---
+
+## 📝 Quiz Module
+
+![Quiz](Quiz.jpg)
+
+The quiz module displays multiple-choice questions and calculates the user's score based on the selected answers.
+
+---
+
+## ☁️ Firebase Realtime Database
+
+![Firebase Realtime Database](Real-time-database.jpg)
+
+The Realtime Database module allows user information such as name and phone number to be stored and synchronized using Firebase.
